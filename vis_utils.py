@@ -23,7 +23,7 @@ def plot_vectors(vectors, T, color, prefix):
         plt.plot([0, xi], [0, yi], color=color)
 
     plt.savefig(f'assets/{prefix}_{T}.png')
-    plt.show()
+    # plt.show()
     plt.close()
 
 def plot_model_features(model, T):
